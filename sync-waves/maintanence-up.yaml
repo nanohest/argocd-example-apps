@@ -11,7 +11,7 @@ spec:
   template:
     spec:
       containers:
-        - name: page-up
+        - name: maintanence-up
           image: alpine:latest
           command: ["sleep", "2"]
       restartPolicy: Never
